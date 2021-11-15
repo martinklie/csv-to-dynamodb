@@ -28,13 +28,13 @@
                 "BillingMode": "PAY_PER_REQUEST",
                 "AttributeDefinitions":[
                     {
-                        "AttributeName": "uuid",
+                        "AttributeName": "MECID",
                         "AttributeType": "S"
                     }
                 ],
                 "KeySchema":[
                     {
-                        "AttributeName": "uuid",
+                        "AttributeName": "MECID",
                         "KeyType": "HASH"
                     }
                 ],
